@@ -1,0 +1,8 @@
+create_table("players") {
+	t.Column("id", "uuid", {"primary": true})
+	t.Column("first_name", "string", {})
+	t.Column("last_name", "string", {})
+	t.Column("email", "string", {})
+	t.Column("age", "integer", {})
+	t.Column("position", "string", {})
+}
